@@ -11,7 +11,7 @@ $autoload['libraries'] = array('form_validation', 'session', 'database');
 $autoload['drivers'] = array();
 
 
-$autoload['helper'] = array('url', 'file', 'sibakmi');
+$autoload['helper'] = array('url');
 
 
 $autoload['config'] = array();
