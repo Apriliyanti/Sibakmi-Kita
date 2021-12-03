@@ -8,10 +8,10 @@ $autoload['packages'] = array();
 $autoload['libraries'] = array('form_validation', 'session', 'database');
 
 
-$autoload['drivers'] = array('url', 'file', 'sibakmi');
+$autoload['drivers'] = array();
 
 
-$autoload['helper'] = array();
+$autoload['helper'] = array('url', 'file', 'sibakmi');
 
 
 $autoload['config'] = array();
